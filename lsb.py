@@ -44,9 +44,9 @@ def decode_message(encoded_image_path):
     return message.rstrip('\x00')  # Remove any null characters at the end
 
 # Example Usage
-image_path = "/stegono/image.png"
+image_path =  "path/to/your/image.png"
 message_to_encode = "Hello, this is a secret message!"
-output_path = "/stegono/encoded_image.png"
+output_path = "path/to/your/encoded_image.png"
 
 # Encode
 encode_message(image_path, message_to_encode, output_path)
